@@ -21,6 +21,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/pharmacies', (req, res) => {
+     console.log()
     res.send(Stratford.pharmacies)
 })
 app.get('/colleges', (req, res) => {
@@ -36,7 +37,7 @@ app.get('/hospitals', (req, res) => {
 })
 
 // app.get('/:city/pharmacies', (req, res) => {
-   
+
 //    if(Harrow){
 //     res.send(Harrow.pharmacies)
 //    }else if(Heathrow){
